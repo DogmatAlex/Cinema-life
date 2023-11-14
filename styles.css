@@ -1,0 +1,239 @@
+.main-page {
+    background-image: url(Images/CyberPunk4.jpg);
+}
+
+.additional-page {
+    background-image: url(Images/CyberPunk3.jpg);
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-list {
+    display: flex;
+    gap: 70px;
+    margin-left: 30px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
+.logo__img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+    background: #fff;
+}
+
+.name__text {
+    align-items: center;
+    font-size: 20px;
+    color: #ffffffae;
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+.name__mini-text {
+    letter-spacing: 11px;
+    font-size: 10px;
+    font-weight: 670;
+    font-family: Verdana, sans-serif;
+    color: #fff;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 19px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #FE7BE5;
+    transition: 0.3s;
+}
+
+.nav__link:hover {
+    color: #fddbf7;
+    transition: 0.3s;
+}
+
+.nav__link:active {
+    color: rgb(177, 4, 70)
+}
+
+.exposition {
+    height: 250px;
+    width: 735px;
+    margin-left: 5px;
+    background-color: #3e00715d;
+    color: #fff;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    outline: 3px solid #FE7BE5;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25px;
+    margin-top: 80px;
+    padding-top: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 530;
+    line-height: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.block { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 350px;
+    background-color: #15005097;
+    border: 2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 0 16px 6px #3F0071;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.block:hover {
+    transform: scale(1.14);
+    transition: 0.4s;
+}
+
+.block:active {
+    transform: scale(0.95);
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 100px;
+    font-size: 23px;
+}
+
+.films{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.films__header {
+    text-align: center;
+    height: 40px;
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 8px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FE7BE5;
+    background-color: rgb(15, 19, 24);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #FE7BE5;
+}
+
+.films__container {
+    display: flex;
+    margin-left: 200px;
+    gap: 100px;
+}
+
+.films__container__sub-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-film {
+    color: aqua;
+    text-align: center;
+    font-size: 21px;
+}
+
+.films__container__content {
+    margin-top: 30px;
+    padding-right: 300px;
+    font-size: 17px;
+    word-spacing: 2px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contacts {
+    height: 100px;
+    width: 350px;
+    margin-left: 5px;
+    margin-bottom: 80px;
+    padding: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #3e007168;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    outline: 2px solid #FE7BE5;
+    padding-top: 20px;
+}
+
+
+.footer {
+    height: 20px;
+    color: aqua;
+    background-color: black;
+}
+
+.footer__text {
+    margin-left: 20px;
+}
