@@ -71,6 +71,9 @@
   color: rgb(177, 4, 70);
 }
 
+.menu {
+  position: relative;
+}
 .menu:hover .categories {
   display: flex;
 }
@@ -79,9 +82,9 @@
   display: none;
   position: absolute;
   background-color: rgba(72, 59, 140, 0.9137254902);
-  top: 45px;
-  left: 480px;
-  height: 300px;
+  top: 5px;
+  left: 15px;
+  height: 360px;
   width: 250px;
   flex-direction: column;
   gap: 25px;
