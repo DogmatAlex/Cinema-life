@@ -84,6 +84,8 @@
 }
 
 .menu {
+  position: relative;
+  
   &:hover {
   .categories {
     display: flex;
@@ -95,9 +97,9 @@
   display: none;
   position: absolute;
   background-color: #483b8ce9;
-  top: 45px;
-  left: 480px;
-  height: 300px;
+  top: 5px;
+  left: 15px;
+  height: 360px;
   width: 250px;
   flex-direction: column;
   gap: 25px;
